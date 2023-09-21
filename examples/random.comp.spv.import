@@ -1,0 +1,15 @@
+[remap]
+
+importer="teamclouday.spirvloader"
+type="RDShaderSPIRV"
+uid="uid://bssyfqg20lc8j"
+path="res://.godot/imported/random.comp.spv-1e626506e3903a79134dc4361ec7eaf8.res"
+
+[deps]
+
+source_file="res://examples/random.comp.spv"
+dest_files=["res://.godot/imported/random.comp.spv-1e626506e3903a79134dc4361ec7eaf8.res"]
+
+[params]
+
+shader_type="COMPUTE"

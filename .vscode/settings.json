@@ -1,0 +1,12 @@
+{
+  "saveAndRun": {
+    "commands": [
+      {
+        "match": "\\.comp.glsl$",
+        "isAsync": true,
+        "cmd": "glslc -fshader-stage=compute ${file} -o ${fileDirname}/${fileBasenameNoExt}.spv"
+      }
+    ]
+  },
+  "glsllint.glslangValidatorArgs": "-V -o ./temp/out.spv"
+}
